@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Prints the last digit of a randomly generated number
+ * main - main function to generate a random number
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Succsss)
  *
  */
 int main(void)
@@ -18,10 +18,9 @@ int main(void)
 	num = n % 10;
 	if (num > 5)
 	{
-		printf("%d and is greater than 5\n",
-		num);
+		printf("%d and is grearet than 5\n", num);
 	}
-	else if ((num < 6) && (num<0))
+	else if ((num < 6) && (num < 0))
 	{
 		printf("%d and is less than 6 and not 0\n", num);
 	}
