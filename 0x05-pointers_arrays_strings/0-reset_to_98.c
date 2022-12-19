@@ -1,18 +1,14 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * main - update the points to 98.
- *
- * return: Always 0
+ * reset_to_98n - take a pointer to an int as parameters and updates
+ * the value it points to to 98
+ * @n: point to an int
+ * Return: Nothing
  */
 
-int main(void)
+void reset_to_98(int *n);
 {
-	int x = 98;
-	int *ip;
-
-	ip = &x;
-	printf("the value of ip is : %d\n" x);
-
-	return (0);
+	*n = 98
 }
