@@ -1,4 +1,4 @@
-#include "seadi.h"
+#include "main.h"
 
 /**
  * reset_to_98n - take a pointer to an int as parameters and updates
