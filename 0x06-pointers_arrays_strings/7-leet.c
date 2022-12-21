@@ -2,7 +2,7 @@
 /**
  * leet - function that incode a string
  *@str:string that will be encoded
- *Return:returns encoded string
+ *Return: returns encoded string
  */
 
 char *leet(char *str)
@@ -21,4 +21,3 @@ char *leet(char *str)
 		}
 	}
 	return (str);
-}
